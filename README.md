@@ -1,4 +1,4 @@
-# I'm Ivan
+# Ivan
 
 **Full-stack developer focused on React, TypeScript and Python.**
 
@@ -11,7 +11,6 @@ I build web applications, APIs and real-time systems. I also use Rust for deskto
 * Backend: **Python, FastAPI**
 * Additional direction: **Rust**
 * Interested in application architecture, developer tools, local AI and real-time systems
-* Currently improving and documenting my public projects
 
 ## Technology stack
 
