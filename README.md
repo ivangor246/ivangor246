@@ -1,11 +1,11 @@
 **Full-stack developer focused on FastAPI, React and TypeScript.**
 
-I build web applications end to end: from asynchronous APIs and background processing to type-safe user interfaces, automated testing and containerized deployment.
+I build web applications end to end: from asynchronous REST and WebSocket APIs to type-safe user interfaces, persistent data layers, automated testing and containerized deployment.
 
 ## About me
 
 * Primary stack: **Python, FastAPI, React and TypeScript**
-* Building maintainable full-stack applications and REST APIs
+* Building maintainable full-stack applications, REST APIs and real-time features
 * Working with asynchronous processing, background jobs and external services
 * Interested in application architecture, security, observability and developer experience
 * Using **Rust** for desktop applications, local AI and performance-oriented software
@@ -21,11 +21,12 @@ I build web applications end to end: from asynchronous APIs and background proce
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5\&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3\&logoColor=white)
 
-### Backend
+### Backend and data
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi\&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?logo=pydantic\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql\&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?logo=celery\&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis\&logoColor=white)
 
@@ -33,6 +34,7 @@ I build web applications end to end: from asynchronous APIs and background proce
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker\&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx\&logoColor=white)
+![Caddy](https://img.shields.io/badge/Caddy-1F88C0?logo=caddy\&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git\&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions\&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux\&logoColor=black)
@@ -44,6 +46,31 @@ I build web applications end to end: from asynchronous APIs and background proce
 ---
 
 ## Featured projects
+
+### [Live Stream Monitor](https://github.com/ivangor246/live_stream)
+
+A self-hosted platform for managing, publishing and watching live-stream events on a personal server or private network.
+
+It combines a React dashboard, a FastAPI backend, PostgreSQL and MediaMTX into a containerized deployment with real-time updates, access control and protected recordings.
+
+**Highlights:**
+
+* Frontend built with **React, TypeScript and Vite**
+* REST and WebSocket backend built with **FastAPI and Pydantic**
+* Persistent storage with **PostgreSQL and Alembic migrations**
+* RTMP publishing with WebRTC playback and automatic HLS fallback
+* Real-time viewer counts, reactions and stream-status updates
+* Administrator, operator and viewer roles with HttpOnly cookie sessions
+* Private streams with revocable viewer links and short-lived media credentials
+* Stream recording with a protected fMP4 archive
+* Health checks, structured JSON logging and Prometheus-compatible metrics
+* Docker Compose deployment with optional Caddy-based HTTPS configuration
+* Automated linting, backend tests and continuous integration
+* PostgreSQL and recording backup and restore tools
+
+[View repository](https://github.com/ivangor246/live_stream)
+
+---
 
 ### [Domain Analyzer](https://github.com/ivangor246/domain-analyzer)
 
@@ -91,8 +118,9 @@ The application performs inference entirely on the CPU, without cloud services o
 ## Current focus
 
 * Building production-oriented applications with **FastAPI and React**
-* Designing clear boundaries between frontend and backend systems
-* Creating type-safe integrations using **TypeScript and OpenAPI**
-* Developing asynchronous workflows with background processing
-* Improving application security, testing and observability
-* Packaging and deploying applications with Docker
+* Designing REST and WebSocket APIs for asynchronous and real-time systems
+* Creating type-safe frontend integrations with **TypeScript and OpenAPI**
+* Working with PostgreSQL data models and database migrations
+* Implementing authentication, authorization and secure resource access
+* Improving application testing, observability and operational reliability
+* Packaging and deploying self-hosted applications with Docker
