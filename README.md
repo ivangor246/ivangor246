@@ -1,2 +1,2 @@
-**Full-stack developer**
+**Full-stack developer**  
 Python, Rust, TypeScript
